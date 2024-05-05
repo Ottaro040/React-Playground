@@ -9,3 +9,10 @@
     width: 50px;
     display: table;
 }
+
+.outer {
+    position: center;
+    height: 200px;
+    width: 75px;
+
+}

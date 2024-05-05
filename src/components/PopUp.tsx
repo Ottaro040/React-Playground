@@ -14,8 +14,10 @@ function PopUp() {
           <input
             type="submit"
             id="submitPrompt"
-            value="sumbit"
-            onClick={() => setShowDescription(!showDescription)}
+            value="Sumbit"
+            onClick={() =>
+              setShowDescription((showDescription) => !showDescription)
+            }
           ></input>
         </form>
       </div>
