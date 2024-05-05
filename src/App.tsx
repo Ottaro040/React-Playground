@@ -1,7 +1,11 @@
-import Message from './Message';
+import PopUp from "./components/PopUp";
 
-function App () {
-  return <div><Message /></div>;
+function App() {
+  return (
+    <div>
+      <PopUp />
+    </div>
+  );
 }
 
 export default App;

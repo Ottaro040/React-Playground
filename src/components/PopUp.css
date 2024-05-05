@@ -1,0 +1,11 @@
+
+
+.prompt {
+    background-color: aqua;
+    padding: 10px 20px;
+    font-style: normal;
+    border: 1px red;
+    height: 100px;
+    width: 50px;
+    display: table;
+}
