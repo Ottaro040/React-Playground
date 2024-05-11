@@ -1,7 +1,7 @@
 
 
 .prompt {
-    background-color: aqua;
+    background: linear-gradient(#2A00B7, #42006C);
     padding: 10px 20px;
     font-style: normal;
     border: 1px red;
@@ -11,8 +11,19 @@
 }
 
 .outer {
-    position: center;
-    height: 200px;
-    width: 75px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    max-width: 740px;
+    max-height: 300px;
+    width: 100%;
+    height: 100%;
+    border: 2px black solid;
+}
 
+.popupbutton {
+    position: relative;
+    bottom: 0px;
 }

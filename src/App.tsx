@@ -1,10 +1,12 @@
 import PopUp from "./components/PopUp";
+import Table from "./components/PokerTable";
 
 function App() {
   return (
-    <div>
-      <PopUp />
-    </div>
+    <>
+      <Table></Table>
+      <PopUp></PopUp>
+    </>
   );
 }
 
